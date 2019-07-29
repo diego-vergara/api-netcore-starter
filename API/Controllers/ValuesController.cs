@@ -10,7 +10,10 @@ namespace API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        /// <summary>
+        /// Values
+        /// </summary>
+        /// <returns>Array of String</returns>
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
